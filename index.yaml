@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  demo-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-18T19:09:59.252046224Z"
+    description: A Helm chart for Kubernetes
+    digest: b2f08affa08e212d1aca2a3da5c18f40556cebd548b74afdba242cdca5b40ea1
+    name: demo-chart
+    type: application
+    urls:
+    - https://github.com/tikal-demo/helm-charts/releases/download/demo-chart-0.1.0/demo-chart-0.1.0.tgz
+    version: 0.1.0
   demo2:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -11,4 +22,15 @@ entries:
     urls:
     - https://github.com/tikal-demo/helm-charts/releases/download/demo2-0.1.2/demo2-0.1.2.tgz
     version: 0.1.2
-generated: "2024-08-18T19:04:22.956463827Z"
+  second-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-18T19:09:59.375034581Z"
+    description: A Helm chart for Kubernetes
+    digest: db98bee77b9036cb79414b8a6b9670bd6e6bd58d66a1af3141889c7d7779962f
+    name: second-chart
+    type: application
+    urls:
+    - https://github.com/tikal-demo/helm-charts/releases/download/second-chart-0.1.0/second-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-08-18T19:09:59.37504493Z"
