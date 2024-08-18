@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  demo2:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-18T19:04:22.956454109Z"
+    description: A Helm chart for Kubernetes
+    digest: 6c7b17acb94d428cd8e0f93cdfbd9b74210135dc8c767b6879096be7e36e4e18
+    name: demo2
+    type: application
+    urls:
+    - https://github.com/tikal-demo/helm-charts/releases/download/demo2-0.1.2/demo2-0.1.2.tgz
+    version: 0.1.2
+generated: "2024-08-18T19:04:22.956463827Z"
